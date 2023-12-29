@@ -1,0 +1,43 @@
+/* Your existing CSS remains unchanged, with a few adjustments */
+
+/* Added a specific class for the header h1 for better styling */
+.header h1 {
+  font-size: 24px; /* Adjust font size */
+  margin: 0; /* Remove default margin */
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2F4F4F;
+  padding: 20px;
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul li {
+  margin: 0;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  border: 1px solid #333;
+  padding: 10px 15px;
+  color: red;
+  transition: background-color 0.3s, color 0.3s ease;
+  border-radius: 5px;
+  font-weight: bold; /* Added font-weight */
+}
+
+.nav ul li a:hover {
+  background-color: gray;
+  color: #fff;
+}
